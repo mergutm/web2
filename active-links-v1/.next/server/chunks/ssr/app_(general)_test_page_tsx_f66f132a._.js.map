@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/e/Downloads/web2-main/web2-main/active-links-v1/app/%28general%29/test/page.tsx"],"sourcesContent":["\"use client\";\nimport { useEffect } from \"react\";\n\nexport default function TestComponent() {\n  useEffect(() => {\n    console.log(\"Este código solo se ejecuta en el cliente\");\n      }, []);\n\n  return <div>Hola desde el cliente</div>;\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,QAAQ,GAAG,CAAC;IACV,GAAG,EAAE;IAET,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}}]
+}
