@@ -1,10 +1,11 @@
 /* [project]/app/tools/active-link/ActiveLink.module.css [app-client] (css) */
 .ActiveLink-module__kugTBG__link {
-  color: #ff82f6;
+  hover: underline;
+  hover: text-blue-400;
 }
 
 .ActiveLink-module__kugTBG__active-link {
-  color: #3b82f6;
+  background-color: #3b82f6;
 }
 
 

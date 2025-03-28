@@ -1,0 +1,18 @@
+.link {
+    color:white;
+    margin-bottom: 3px;
+  }
+
+.link:hover {
+  color: salmon;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+  
+.active-link {    
+    text-decoration: underline overline #ff3028;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}

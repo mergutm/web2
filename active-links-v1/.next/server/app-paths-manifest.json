@@ -1,4 +1,4 @@
 {
-  "/(general)/product/page": "app/(general)/product/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/(general)/contador/page": "app/(general)/contador/page.js",
+  "/(general)/test/page": "app/(general)/test/page.js"
 }

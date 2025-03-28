@@ -1,4 +1,6 @@
-import { Footer, NavBar } from "../tools";
+//import { Footer, NavBar } from "../tools";
+import { NavBar, Footer } from "@/tools";
+
 
 export default function GeneralLayout(
     { children}: {children: React.ReactNode}

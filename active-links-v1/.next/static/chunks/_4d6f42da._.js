@@ -30,13 +30,17 @@ var _s = __turbopack_context__.k.signature();
 const ActiveLink = ({ path, text })=>{
     _s();
     const pathName = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    console.log(pathName);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$tools$2f$active$2d$link$2f$ActiveLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].link} ${pathName === path && __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$tools$2f$active$2d$link$2f$ActiveLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]['active-link']} `,
         href: path,
-        children: text
-    }, void 0, false, {
+        children: [
+            text,
+            " aaa"
+        ]
+    }, void 0, true, {
         fileName: "[project]/app/tools/active-link/ActiveLink.tsx",
-        lineNumber: 17,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 } //npm install -D tailwindcss postcss autoprefixer

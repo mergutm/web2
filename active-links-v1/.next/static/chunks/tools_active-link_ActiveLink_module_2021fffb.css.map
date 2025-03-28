@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/e/Documents/next/web2/active-links-v0/tools/active-link/ActiveLink.module.css"],"sourcesContent":[".link {\n    color:white;\n    margin-bottom: 3px;\n  }\n\n.link:hover {\n  color: salmon;\n  transform: scale(1.05);\n  box-shadow: 0 0 20px rgba(0,255,255,0.5);\n}\n\n  \n.active-link {    \n    text-decoration: underline overline #ff3028;\n    padding-top: 3px;\n    padding-bottom: 3px;\n\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;AAOA","debugId":null}}]
+}
