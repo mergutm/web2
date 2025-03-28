@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/e/Downloads/proyecto-rutas/app/%28general%29/test/page.tsx"],"sourcesContent":["\"use client\";\nimport { useEffect } from \"react\";\n\nexport default function TestComponent() {\n  useEffect(() => {\n    console.log(\"Este código solo se ejecuta en el cliente\");\n      }, []);\n\n  return <div>Hola desde el cliente</div>;\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,QAAQ,GAAG,CAAC;IACV,GAAG,EAAE;IAET,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}},
-    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":["file:///home/e/Downloads/proyecto-rutas/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}
