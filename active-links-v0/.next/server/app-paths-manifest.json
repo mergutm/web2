@@ -1,7 +1,0 @@
-{
-  "/(general)/about/page": "app/(general)/about/page.js",
-  "/(general)/product/page": "app/(general)/product/page.js",
-  "/(general)/test/page": "app/(general)/test/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}

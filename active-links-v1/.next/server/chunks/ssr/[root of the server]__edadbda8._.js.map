@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/tools/active-link/ActiveLink.module.css [app-ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"active-link\": \"ActiveLink-module__H7rJ_a__active-link\",\n  \"link\": \"ActiveLink-module__H7rJ_a__link\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
-    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file:///home/e/Documents/next/web2/active-links-v0/tools/active-link/ActiveLink.tsx"],"sourcesContent":["'use client';\n\nimport Link from 'next/link';\nimport { usePathname } from 'next/navigation';\nimport style from './ActiveLink.module.css';\n\ninterface Props {\n  path: string;\n  text: string;\n}\n\nexport const ActiveLink = ({  path, text }: Props ) => {\n\n  const pathName = usePathname();\n  console.log(pathName, path, pathName == path);\n\n  return (\n    <Link \n      className={ `${ style.link } ${  (pathName === path ) && style['active-link'] } ` } \n      href={ path }>\n        { text } \n    </Link>\n  )\n}\n\n"],"names":[],"mappings":";;;;AAEA;AACA;AACA;AAJA;;;;;AAWO,MAAM,aAAa,CAAC,EAAG,IAAI,EAAE,IAAI,EAAS;IAE/C,MAAM,WAAW,CAAA,GAAA,kIAAA,CAAA,cAAW,AAAD;IAC3B,QAAQ,GAAG,CAAC,UAAU,MAAM,YAAY;IAExC,qBACE,8OAAC,4JAAA,CAAA,UAAI;QACH,WAAY,GAAI,iJAAA,CAAA,UAAK,CAAC,IAAI,CAAE,CAAC,EAAI,AAAC,aAAa,QAAU,iJAAA,CAAA,UAAK,CAAC,cAAc,CAAE,CAAC,CAAC;QACjF,MAAO;kBACH;;;;;;AAGV","debugId":null}}]
-}

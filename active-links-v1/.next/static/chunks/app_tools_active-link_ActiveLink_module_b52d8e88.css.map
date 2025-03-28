@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/tools/active-link/ActiveLink.module.css"],"sourcesContent":[".link {\n    hover:underline;\n    hover:text-blue-400;\n  }\n  \n.active-link {\n    background-color: #3b82f6;\n}\n\n"],"names":[],"mappings":"AAAA;;;;;AAKA"}}]
-}
